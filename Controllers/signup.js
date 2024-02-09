@@ -1,6 +1,7 @@
 const service = require('../Services/Signup')
 const { obj } = require('../constants/constant');
 module.exports.SignUp = async (req, res) => {
+    debugger
     try {
         console.log('inside signup controller');
         const { Email, Name, Password } = req.body;
