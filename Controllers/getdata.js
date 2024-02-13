@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const secret = "this is a secret"
-const getdata = (req, res) => {
+const logout = (req, res) => {
     const temp = req.cookies.data;
     console.log('hello')
     console.log(temp)
@@ -18,4 +18,4 @@ const getdata = (req, res) => {
         }
     })
 }
-module.exports = getdata
+module.exports = logout
